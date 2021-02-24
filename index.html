@@ -128,7 +128,7 @@
                  <h1>Contact Us</h1>
             </div>
 
-            <div class="input-text" data-center-center="opacity:1;top:0;" data-0-bottom="opacity:0;top:400px;">
+            <div class="input-text" data-center-center="opacity:1;top:0;" data-400-bottom="opacity:0;top:300px;">
                 <form action="">
                    
                         <input type="text" name="y_name" placeholder="Your Name" required="required">
@@ -152,7 +152,22 @@
 
    <script src="./skrollr.js"></script>
    <script type= "text/javascript">
-    var s = skrollr.init();
+    var s = skrollr.init({
+    forceHeight:false,
+    smoothScrolling:false,
+     mobileDeceleration:0.004
+    });
+    function isMobile() {
+return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
+if (!isMobile()) {
+    var s = skrollr.init({
+    forceHeight:false,
+    smoothScrolling:false,
+     mobileDeceleration:0.004
+    });
+}
 </script>
 </body>
 </html>
