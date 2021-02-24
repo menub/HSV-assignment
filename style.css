@@ -281,9 +281,10 @@
   }  
 
 .contact-section{
-    height:600px;
+    height:100vh;
     background:#2A3D66;
-    display: flex;   
+    display: flex;
+    bottom: 0;   
 }
 .contact{
      width: auto;
