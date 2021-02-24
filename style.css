@@ -4,8 +4,6 @@
     position: relative;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    overflow: scroll;
--webkit-overflow-scrolling: touch;
 }
 :root{
     --main-p-color: rgb(200, 200, 200);
@@ -351,10 +349,7 @@
 
 /* Mobile Responsive */
 @media(max-width:450px){
-    *{
-  overflow: scroll;
--webkit-overflow-scrolling: touch;
- }
+
 body {
     height:100%;
 }
