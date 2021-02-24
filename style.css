@@ -410,11 +410,9 @@ body {
        align-items: center;
     }
     .work .work-card .card{
-        width:90vw;
+        width:340px;
         height: 460px;
         margin-bottom: 2rem;
-        /* padding: 0px 40px; */
-       
     }
     .social{
         height:auto; 
