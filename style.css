@@ -348,7 +348,7 @@
 
 
 /* Mobile Responsive */
-@media(max-width:375px){
+@media(max-width:450px){
 
     .home{
         background-color: #464646;
