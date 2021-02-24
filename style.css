@@ -353,6 +353,9 @@
   overflow: scroll;
 -webkit-overflow-scrolling: touch;
  }
+body {
+    height:100%;
+}
 
     .home{
         background-color: #464646;
