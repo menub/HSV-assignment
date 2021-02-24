@@ -409,11 +409,11 @@ body {
         justify-content: center;
        align-items: center;
     }
-    .work .work-card div{
+    .work .work-card .card{
         width:90vw;
-        height: auto;
+        height: 460px;
         margin-bottom: 2rem;
-        padding: 0px 40px;
+        /* padding: 0px 40px; */
        
     }
     .social{
