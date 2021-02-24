@@ -4,6 +4,8 @@
     position: relative;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 :root{
     --main-p-color: rgb(200, 200, 200);
