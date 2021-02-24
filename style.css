@@ -350,7 +350,7 @@
 /* Mobile Responsive */
 @media(max-width:450px){
     *{
-  overflow : scroll;
+  overflow : visible;
  }
 
     .home{
